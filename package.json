@@ -1,6 +1,6 @@
 {
   "name": "cucumber-replicate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run Cucumber scenarios Parallel on Multiple browsers. Replicates the feature files based on the Browsers user wants to run",
   "main": "index.js",
   "author": {
