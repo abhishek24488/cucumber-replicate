@@ -1,0 +1,38 @@
+{
+  "name": "cucumber-replicate",
+  "version": "0.0.1",
+  "description": "Run Cucumber scenarios Parallel on Multiple browsers. Replicates the feature files based on the Browsers user wants to run",
+  "main": "index.js",
+  "author": {
+    "name": "kushang gajjar",
+    "email": "g.kushang@gmail.com"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "debug": "^2.2.0",
+    "fs-extra": "^0.30.0",
+    "lodash": "^4.11.1",
+    "sauce-connect-launcher": "^0.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkushang/cucumber-replicate"
+  },
+  "bugs": {
+    "url": "https://github.com/gkushang/cucumber-replicate/issues"
+  },
+  "keywords": [
+    "cucumber",
+    "parallel",
+    "multiple browsers",
+    "replicate",
+    "cucumber-replicate"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "kushang",
+      "email": "g.kushang@gmai.com"
+    }
+  ]
+}
