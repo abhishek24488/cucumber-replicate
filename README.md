@@ -33,7 +33,7 @@ module.exports = function(grunt) {
     ...
     
     var replicate = replicateTask({
-        baseDir: commonConfig.baseDir,
+        baseDir: path.join(process.cwd(), '/test/')
         grunt: grunt,
         key: 'SAUCE' //to run tests on SauceLabs
     });
@@ -71,7 +71,7 @@ function World() {
 
         var options = {
             replicate: {
-                baseDir: commonConfig.baseDir
+                baseDir: path.join(process.cwd(), '/test/')
             },
             map: {
                 key: 'BROWSER', // this can be anything, i.e. SAUCE_BROWSER
